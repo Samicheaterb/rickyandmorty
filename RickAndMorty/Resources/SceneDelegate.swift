@@ -16,8 +16,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     //cast to uiwindowscene or return
     guard let windowScene = (scene as? UIWindowScene) else { return }
 
-    let vc = ViewController()
-//
+    //assign main controller
+    let vc = RMTabViewController()
     let window = UIWindow(windowScene: windowScene)
     window.rootViewController = vc
 
