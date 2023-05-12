@@ -1,19 +1,17 @@
 //
-//  ViewController.swift
+//  RMTabViewController.swift
 //  RickAndMorty
 //
 //  Created by Sam Bruce on 5/12/23.
 //
 
+import Foundation
 import UIKit
 
-class ViewController: UIViewController {
+class RMTabViewController: UITabBarController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view.
+    view.backgroundColor = .systemBlue
   }
-
-
 }
-
